@@ -1,0 +1,84 @@
+.info__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.main__text{
+    height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #0F1113;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    
+}
+.number{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    color: #FF4D4D;
+    line-height: 48px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.txt{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #0F1113; 
+}
+@media (min-width: 0) and (max-width: 375px) {
+    .info__inner{
+        display: block;
+        justify-content: space-between;
+    }
+    .main__text{
+        width: 343px;
+        height: 40px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        font-feature-settings: 'salt' on, 'liga' off;
+        color: #0F1113;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        
+    }
+    .number{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 48px;
+        color: #FF4D4D;
+        font-feature-settings: 'salt' on, 'liga' off;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .txt{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        font-feature-settings: 'salt' on, 'liga' off;
+        color: #263141;
+        
+    }
+}

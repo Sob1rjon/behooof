@@ -1,0 +1,93 @@
+.iphone__inner {
+    background: #F6F7FA;
+    border-radius: 16px;
+    display: flex;
+    margin-top: 80px;   
+    margin-bottom: 80px;
+}
+
+.iphone__text {
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+.iphone__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color:#0F1113;
+
+    margin-bottom: 40px;
+    span {
+        color:#FF4D4D;
+    }
+}
+
+.iphone__text {
+    img {
+        display: block;
+    }
+}
+
+.iphone__text2 {
+    margin-left: 140px;
+}
+
+.iphone-img {
+    margin-top: 80px;
+    z-index: 3;
+    position: relative;
+}
+
+.iphone-img2 {
+    position: relative;
+    right: 108px;
+}
+
+@media (max-width: "375px") {
+    .iphone__inner {
+        background: #F6F7FA;
+        border-radius: 16px;
+        display: block;
+        margin-top: 80px;   
+        margin-bottom: 80px;
+    }    
+    .iphone-img {
+        display: none;
+    }
+    .iphone-img2 {
+        display: none;
+    }
+
+    .iphone__title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 28px;
+        color:#0F1113;
+    
+        margin-bottom: 12px;
+        span {
+            color:#FF4D4D;
+        }
+    }
+    .iphone__text {
+        padding-left: 12px;
+        padding-top: 12px;
+    }
+    .iphone__link {
+        width: 319px;
+        height: 48.73px;
+        margin-bottom: 12.71px;
+    }
+    .iphone__text2 {
+        margin-left: 12px;
+        background-image: url(../../assets/img/DualIphone.jpg);
+        background-repeat: no-repeat;
+        width: 319px;
+        height: 26vh;
+    }
+}
